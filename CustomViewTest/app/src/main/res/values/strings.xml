@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CustomViewTest</string>
+    <string name="BallentVerifierView_testString">16324673</string>
+    <string name="BallentVerifierView_copy_test">copy password</string>
+    <string name="BallentVerifierView_copyover_test">@android:string/ok</string>
+    <string name="BallentVerifierView_nologin_test">NO REQUEST</string>
+    <string name="BallentVerifierview_startgame_test">START GAME！</string>
+
+    <string name="equalizer_name_text">EQUALIZER</string>
+    <string-array name="music_type_array">
+        <item>CLOSE</item>
+        <item>CUSTOM</item>
+        <item>POP</item>
+        <item>DBB</item>
+        <item>NOP</item>
+        <item>ROCK</item>
+        <item>CLASSOL</item>
+        <item>JAZZ</item>
+        <item>DANCE</item>
+        <item>ELECTRIC</item>
+    </string-array>
+</resources>
