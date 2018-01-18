@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BallenetVerifierView">
+        <attr name="text" format="string"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="period" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="LottieAnimationView">
+        <attr name="outTime" format="integer"></attr>
+        <attr name="autoFresh" format="boolean"></attr>
+    </declare-styleable>
+</resources>
