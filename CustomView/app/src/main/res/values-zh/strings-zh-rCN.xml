@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CustomViewTest</string>
+    <string name="app_name">CustomView</string>
     <string name="BallentVerifierView_testString">16324673</string>
     <string name="BallentVerifierView_copy_test">复制密码</string>
     <string name="BallentVerifierView_copyover_test">已复制</string>

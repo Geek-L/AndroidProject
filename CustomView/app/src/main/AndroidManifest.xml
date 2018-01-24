@@ -17,9 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".test.BallenetVerifierViewTest" />
-        <activity android:name=".test.QQMusicEqualizerViewTest"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".test.LottieAnimationViewTest"></activity>
+        <activity
+            android:name=".test.QQMusicEqualizerViewTest"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".test.LottieAnimationViewTest" />
+        <activity android:name=".test.FlexibleFontViewTest" />
+        <activity android:name=".test.HexagonViewTest"></activity>
     </application>
 
 </manifest>

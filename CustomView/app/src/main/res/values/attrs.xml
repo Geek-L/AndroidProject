@@ -11,4 +11,13 @@
         <attr name="outTime" format="integer"></attr>
         <attr name="autoFresh" format="boolean"></attr>
     </declare-styleable>
+    
+    <declare-styleable name="HexagonView">
+        <attr name="x" format="integer"/>
+        <attr name="y" format="integer"/>
+        <attr name="viewColor" format="color"/>
+        <attr name="hvtext" format="string"/>
+        <attr name="hvtextSize" format="dimension"/>
+        <attr name="hvtextColor" format="color"/>
+    </declare-styleable>
 </resources>

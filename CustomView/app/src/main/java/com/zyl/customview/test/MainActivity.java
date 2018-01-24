@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.onItemC
         data.add("BallenetVerifierView");
         data.add("QQMusicEqualizerView");
         data.add("LottieAnimationView");
+        data.add("FlexibleFontViewTest");
+        data.add("HexagonViewTest");
         return data;
     }
 
@@ -52,6 +54,14 @@ public class MainActivity extends AppCompatActivity implements MyAdapter.onItemC
             }
             case 2:{
                 intent=new Intent(this,LottieAnimationViewTest.class);
+                break;
+            }
+            case 3:{
+                intent=new Intent(this,FlexibleFontViewTest.class);
+                break;
+            }
+            case 4:{
+                intent=new Intent(this,HexagonViewTest.class);
                 break;
             }
             default:

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zyl.customview.test.HexagonViewTest">
+
+    <com.zyl.customview.viewgroup.HexagonsLayout
+        android:id="@+id/hexagons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@color/colorPrimary"
+            app:hvtext="(0,0)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="0"
+            app:y="0" />
+
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_orange_dark"
+            app:hvtext="(2,0)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="2"
+            app:y="0" />
+
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_light"
+            app:hvtext="(1,0)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="1"
+            app:y="0" />
+
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_red_light"
+            app:hvtext="(3,0)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="3"
+            app:y="0" />
+
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_purple"
+            app:hvtext="(0,1)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="0"
+            app:y="1" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_blue_dark"
+            app:hvtext="(2,1)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="2"
+            app:y="1" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_red_dark"
+            app:hvtext="(1,1)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="1"
+            app:y="1" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/darker_gray"
+            app:hvtext="(3,1)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="3"
+            app:y="1" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_orange_dark"
+            app:hvtext="(2,2)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="2"
+            app:y="2" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_blue_bright"
+            app:hvtext="(0,2)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="0"
+            app:y="2" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_blue_dark"
+            app:hvtext="(0,3)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="0"
+            app:y="3" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_dark"
+            app:hvtext="(1,2)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="1"
+            app:y="2" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_dark"
+            app:hvtext="(1,3)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="1"
+            app:y="3" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_dark"
+            app:hvtext="(3,3)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="3"
+            app:y="3" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_dark"
+            app:hvtext="(1,4)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="1"
+            app:y="4" />
+        <com.zyl.customview.view.HexagonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:viewColor="@android:color/holo_green_dark"
+            app:hvtext="(3,4)"
+            app:hvtextColor="@android:color/black"
+            app:hvtextSize="10sp"
+            app:x="3"
+            app:y="4" />
+    </com.zyl.customview.viewgroup.HexagonsLayout>
+</RelativeLayout>
